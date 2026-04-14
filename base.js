@@ -676,8 +676,7 @@ function drawSong() {
 
 //credits:
 //menu ost: alyzea - sunset resort
-//start ost: Webinar™ - Bonus Fruit I
-//finish ost: Xploshi - Showcase
+//start ost: Xploshi - Showcase
 
 //song1: gabemtnz - i don't go to parties and i only know 3 dance moves from 2017 (remix)
 //song2: yeil - heart pop
