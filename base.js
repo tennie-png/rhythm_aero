@@ -170,7 +170,7 @@ class note {
 function setup() {
   createCanvas(900, 600);
   lastSecond = second();
-  outputVolume(0.3);
+  outputVolume(0.5);
   menuost.loop();
   textAlign(CENTER);
   cursor("assets/cursor.png");
