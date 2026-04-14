@@ -192,7 +192,7 @@ function draw() {
   highScore_idgtp = max(idgtp_scores);
   highScore_h_s = max(h_s_scores);
 
-  console.log(highScore_h_s);
+  //console.log(highScore_h_s);
 
   if (startScreen) {
     startmenu();
