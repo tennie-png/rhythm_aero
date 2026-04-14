@@ -106,11 +106,10 @@ class note {
   }
 
   show() {
-    if (this.y < 480) {
+    if (this.y < 485) {
       image(noteblock, this.x, this.y, 158, 23);
     }
     else {
-
       if (this.showing) {
         //miss if y below 475
         console.log("miss");
@@ -140,7 +139,7 @@ class note {
       score += 50;
       mehCount++;
     }
-    else if (this.y > 425 && this.y < 455) {
+    else if ( (this.y > 425 && this.y < 455) ){
       console.log("good");
       score += 100;
       goodCount++;
@@ -252,6 +251,7 @@ function draw() {
 
     if (songPlay == true && 4 < beatIndex <= songArray.length) {
 
+      //play the fucking song
       countBeats(songArray, selectedSong);
       drawSong();
 
